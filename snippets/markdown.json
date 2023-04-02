@@ -2,21 +2,21 @@
   "Insert Text": {
     "prefix": [">text"],
     "body": ["{% ${1|u,emp,wavy,del,kbd,psw|} $1 %}"],
-    "description": "Insert Text"
+    "description": "Insert Text."
   },
   "Insert Span": {
     "prefix": [">span"],
     "body": [
       "{% span ${2|logo,code|} ${3|red,yellow,green,cyan,blue,gray|} ${4|small,h4,h3,h2,h1,large,huge,ultra|} ${5|left,center,right|} $1%}"
     ],
-    "description": "Insert Span"
+    "description": "Insert Span."
   },
   "Insert Paragraph": {
     "prefix": [">p"],
     "body": [
       "{% p ${2|logo,code|} ${3|red,yellow,green,cyan,blue,gray|} ${4|small,h4,h3,h2,h1,large,huge,ultra|} ${5|left,center,right|} $1%}"
     ],
-    "description": "Insert Paragraph"
+    "description": "Insert Paragraph."
   },
   "Insert Note": {
     "prefix": [">note"],
@@ -38,7 +38,7 @@
   },
   "Insert Link": {
     "prefix": [">link"],
-    "body": ["{% link ${1:标题}, ${2:链接}, ${3:图片链接（可选）} %}"],
-    "description": "Insert Link"
+    "body": ["{% link ${1:title}, ${2:url}, ${3:imgUrl（option）} %}"],
+    "description": "Insert Link."
   }
 }

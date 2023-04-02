@@ -10,21 +10,9 @@
 
 ### 功能
 
-- `>default`: Insert Default Note.
-- `>primary`: Insert Primary Note.
-- `>primary-no-icon`: Insert Primary No-Icon Note.
-- `>success`: Insert Success Note.
-- `>info`: Insert Info Note.
-- `>warning`: Insert Warning Note.
-- `>danger`: Insert Danger Note.
-- `>mermaid`: Insert Mermaid Note.
-- `>tabs`: Insert Tabs Note.
-- `>tabs_tensorflow`: Insert Tabs TensorFlow Note.
-- `>tabs_java_python`: Insert Tabs Java-Python Note.
-- `>python`：Insert Python formula.
-- `>java`：Insert Python formula.
-- `>translate`：Insert Translate.
-- `>emsp`：Insert \&emsp;
-- `>sql`：Insert SQL formula.
-- `>js`：Insert JavaScript formula.
-- `>shell`：Insert Shell formula.
+- `>text`: Insert Text.
+- `>span`: Insert Span.
+- `>p`: Insert Paragraph.
+- `>note`: Insert Note.
+- `>tip`: Insert Tip.
+- `>link`: Insert Link.
