@@ -1,6 +1,6 @@
 # Hexo Butterfly Tag Plugins Plus Snippets
 
-本插件是和 Butterfly 插件 [hexo-butterfly-tag-plugins-plus](https://akilar.top/posts/615e2dec/) 主题配套的。
+本插件是和 Butterfly 主题的插件 [hexo-butterfly-tag-plugins-plus](https://akilar.top/posts/615e2dec/) 配套的。
 
 ## 用法
 
