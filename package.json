@@ -2,7 +2,7 @@
   "name": "hexo-butterfly-tag-plugins-plus-snippets",
   "displayName": "Hexo Butterfly Tag Plugins Plus Snippets",
   "description": "Some Snippets for Hexo Butterfly Tag Plugins Plus Snippets in markdown writing",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "publisher": "youngjuning",
   "engines": {
     "vscode": "^1.41.0"
