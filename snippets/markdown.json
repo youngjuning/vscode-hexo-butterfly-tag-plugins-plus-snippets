@@ -40,5 +40,23 @@
     "prefix": [">link"],
     "body": ["{% link ${1:title}, ${2:url}, ${3:imgUrl（option）} %}"],
     "description": "Insert Link."
+  },
+  "Insert Hide": {
+    "prefix": [">hide"],
+    "body": [
+      "{% ${1|hideToggle,hideBlock,hideInline|} $2 %}",
+      "$0",
+      "{% end$1 %}"
+    ],
+    "description": "Insert Hide."
+  },
+  "Insert Folding": {
+    "prefix": [">folding"],
+    "body": [
+      "{% folding ${1|blue,cyan,green,yellow,red|} ${2:open}%}",
+      "$0",
+      "{% endfolding %}"
+    ],
+    "description": "Insert Folding."
   }
 }

@@ -14,3 +14,5 @@
 - `>note`: Insert Note.
 - `>tip`: Insert Tip.
 - `>link`: Insert Link.
+- `>hide`: Insert Hide.
+- `>folding`: Insert Folding.
