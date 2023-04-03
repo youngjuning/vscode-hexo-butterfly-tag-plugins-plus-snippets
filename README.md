@@ -15,4 +15,6 @@
 - `>tip`: Insert Tip.
 - `>link`: Insert Link.
 - `>hide`: Insert Hide.
+- `timeline`: Insert Timeline
+- `timelineItem`: Insert Timeline Item
 - `>folding`: Insert Folding.

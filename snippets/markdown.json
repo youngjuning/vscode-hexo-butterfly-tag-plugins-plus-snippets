@@ -58,5 +58,15 @@
       "{% endfolding %}"
     ],
     "description": "Insert Folding."
+  },
+  "Insert Timeline": {
+    "prefix": ">timeline",
+    "body": ["{% timeline ${1:title} ${2:color} %}", "$0", "{% endtimeline %}"],
+    "description": "Insert Timeline"
+  },
+  "Insert Timeline Item": {
+    "prefix": ">timelineItem",
+    "body": ["<!-- timeline ${1:title} -->", "$0", "<!-- endtimeline -->"],
+    "description": "Insert Timeline Item"
   }
 }
