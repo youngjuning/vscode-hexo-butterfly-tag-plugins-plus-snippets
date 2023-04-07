@@ -14,6 +14,7 @@
 - `>note`: Insert Note
 - `>tip`: Insert Tip
 - `>checkbox`: Insert Checkbox
+- `>radio`: Insert Radio
 - `>link`: Insert Link
 - `>hide`: Insert Hide
 - `timeline`: Insert Timeline
