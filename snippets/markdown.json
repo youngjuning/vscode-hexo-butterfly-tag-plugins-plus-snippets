@@ -73,5 +73,23 @@
     "prefix": ">inlineimage",
     "body": ["{% inlineimage ${1:link}, height=${2:option} %}"],
     "description": "Insert Inline Image"
+  },
+  "Insert Gallery Group": {
+    "prefix": ">galleryGroup",
+    "body": [
+      "<div class=\"gallery-group-main\">",
+      "{% galleryGroup ${1:name} ${2:description} ${}3:link ${imgUrl} %}",
+      "</div>"
+    ],
+    "description": "Insert Gallery Group"
+  },
+  "Insert Gallery": {
+    "prefix": ">gallery",
+    "body": [
+      "{% gallery %}",
+      "${1:markdown 图片格式}",
+      "{% endgallery %}"
+    ],
+    "description": "Insert Gallery"
   }
 }
