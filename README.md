@@ -15,7 +15,7 @@
 - `>tip`: Insert Tip
 - `>checkbox`: Insert Checkbox
 - `>radio`: Insert Radio
-- `>link`: Insert Link
+- `>linkB`: Insert Butterfly Link
 - `>hide`: Insert Hide
 - `timeline`: Insert Timeline
 - `timelineItem`: Insert Timeline Item
