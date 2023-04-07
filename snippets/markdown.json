@@ -68,5 +68,10 @@
     "prefix": ">timelineItem",
     "body": ["<!-- timeline ${1:title} -->", "$0", "<!-- endtimeline -->"],
     "description": "Insert Timeline Item"
+  },
+  "Insert Inline Image": {
+    "prefix": ">inlineimage",
+    "body": ["{% inlineimage ${1:link}, height=${2:option} %}"],
+    "description": "Insert Inline Image"
   }
 }
