@@ -17,4 +17,7 @@
 - `>hide`: Insert Hide.
 - `timeline`: Insert Timeline
 - `timelineItem`: Insert Timeline Item
+- `>inlineimage`: Insert Inline Image
+- `>galleryGroup`: Insert Gallery Group
+- `>gallery`: Insert Gallery
 - `>folding`: Insert Folding.
