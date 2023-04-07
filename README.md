@@ -8,16 +8,17 @@
 
 ## 功能
 
-- `>text`: Insert Text.
-- `>span`: Insert Span.
-- `>p`: Insert Paragraph.
-- `>note`: Insert Note.
-- `>tip`: Insert Tip.
-- `>link`: Insert Link.
-- `>hide`: Insert Hide.
+- `>text`: Insert Text
+- `>span`: Insert Span
+- `>p`: Insert Paragraph
+- `>note`: Insert Note
+- `>tip`: Insert Tip
+- `>checkbox`: Insert Checkbox
+- `>link`: Insert Link
+- `>hide`: Insert Hide
 - `timeline`: Insert Timeline
 - `timelineItem`: Insert Timeline Item
 - `>inlineimage`: Insert Inline Image
 - `>galleryGroup`: Insert Gallery Group
 - `>gallery`: Insert Gallery
-- `>folding`: Insert Folding.
+- `>folding`: Insert Folding

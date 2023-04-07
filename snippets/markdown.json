@@ -36,6 +36,11 @@
     ],
     "description": "Insert Tip."
   },
+  "Insert Checkbox": {
+    "prefix": ">checkbox",
+    "body": "{% checkbox ${1|plus,minus,times|} ${2|red,green,yellow,cyan,blue|} ${3:checked} ${4:text}%}",
+    "description": "Insert Checkbox"
+  },
   "Insert Link": {
     "prefix": [">link"],
     "body": ["{% link ${1:title}, ${2:url}, ${3:imgUrl（option）} %}"],
