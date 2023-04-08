@@ -125,7 +125,7 @@
   },
   "Insert Image": {
     "prefix": ">image",
-    "body": "{% image ${0:url}, width=${1:100}, height=${2:100}, alt=${3:butterfly} bg=${4:#f2f2f2}%}",
+    "body": "{% image ${0:url}, width=${1:100px}, height=${2:100px}, alt=${3:butterfly} bg=${4:#f2f2f2}%}",
     "description": "Insert Image"
   },
   "Insert Gallery Group": {
