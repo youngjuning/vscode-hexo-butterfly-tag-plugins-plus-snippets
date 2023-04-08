@@ -27,6 +27,7 @@
 - `mermaid`: Insert Mermaid
 - `>hide`: Insert Hide
 - `>inlineimage`: Insert Inline Image
+- `>image`: Insert Image
 - `>galleryGroup`: Insert Gallery Group
 - `>gallery`: Insert Gallery
 - `>folding`: Insert Folding
