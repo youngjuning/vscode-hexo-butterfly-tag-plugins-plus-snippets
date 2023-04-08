@@ -36,6 +36,15 @@
     ],
     "description": "Insert Tip."
   },
+  "Insert Animate Tip": {
+    "prefix": ">tipAnimate",
+    "body": [
+      "{% tip ${1|success,error,warning,bolt,ban,home,sync,cogs,key,bell|} ${2|faa-wrench,faa-ring,faa-horizontal,faa-vertical,faa-flash,faa-bounce,faa-spin,faa-tada,faa-pulse,faa-shake,faa-passing,faa-passing-reverse,faa-burst,faa-falling,faa-rising,faa-parent|} ${3|animated,animated-hover|} ${4|faa-fast,faa-slow|} %}",
+      "$0",
+      "{% endtip %}"
+    ],
+    "description": "Insert Animate Tip"
+  },
   "Insert Checkbox": {
     "prefix": ">checkbox",
     "body": "{% checkbox ${1|plus,minus,times|} ${2|red,green,yellow,cyan,blue|} ${3:checked}, ${4:text}%}",
@@ -46,10 +55,50 @@
     "body": "{% radio ${2|red,green,yellow,cyan,blue|} ${3:checked}, ${4:text}%}",
     "description": "Insert Radio."
   },
+  "Insert Timeline": {
+    "prefix": ">timeline",
+    "body": [
+      "{% timeline ${1:title} ${2|default,blue,pink,red,purple,orange,green|} %}",
+      "$0",
+      "{% endtimeline %}"
+    ],
+    "description": "Insert Timeline"
+  },
+  "Insert Timeline Item": {
+    "prefix": ">timelineItem",
+    "body": ["<!-- timeline ${1:title} -->", "$0", "<!-- endtimeline -->"],
+    "description": "Insert Timeline Item"
+  },
   "Insert Butterfly Link": {
     "prefix": [">linkB"],
     "body": ["{% link ${1:title}, ${2:url}, ${3:imgUrl(option)} %}"],
     "description": "Insert Butterfly Link."
+  },
+  "Insert btns": {
+    "prefix": [">btns"],
+    "body": [
+      "{% btns ${1|rounded,circle|} ${2|width,fill|} ${3|center,around|} ${4|grid2,grid3,grid4,grid5|}%}",
+      "$0",
+      "{% endbtns %}"
+    ],
+    "description": "Insert btns."
+  },
+  "Insert btns cell": {
+    "prefix": [">btnsCell"],
+    "body": ["{% cell ${1:title}, ${2:link}, ${3:iconOrImg} %}"],
+    "description": "Insert btns cell."
+  },
+  "Insert Butterfly Button": {
+    "prefix": [">btn"],
+    "body": ["{% btn ${1:link}, ${2:title}, ${3:icon}%}, ${4|outline,block|} ${5|blue,pink,red,purple,orange,green|} ${6:larger}"],
+    "description": "Insert Butterfly Button."
+  },
+  "Insert Butterfly Mermaid": {
+    "prefix": [">mermaid"],
+    "body": [
+      "{% mermaid %}$0{% endmermaid %}"
+    ],
+    "description": "Insert Butterfly Mermaid."
   },
   "Insert Hide": {
     "prefix": [">hide"],
@@ -68,20 +117,6 @@
       "{% endfolding %}"
     ],
     "description": "Insert Folding."
-  },
-  "Insert Timeline": {
-    "prefix": ">timeline",
-    "body": [
-      "{% timeline ${1:title} ${2|default,blue,pink,red,purple,orange,green|} %}",
-      "$0",
-      "{% endtimeline %}"
-    ],
-    "description": "Insert Timeline"
-  },
-  "Insert Timeline Item": {
-    "prefix": ">timelineItem",
-    "body": ["<!-- timeline ${1:title} -->", "$0", "<!-- endtimeline -->"],
-    "description": "Insert Timeline Item"
   },
   "Insert Inline Image": {
     "prefix": ">inlineimage",
