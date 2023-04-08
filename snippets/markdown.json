@@ -92,7 +92,7 @@
     "prefix": ">galleryGroup",
     "body": [
       "<div class=\"gallery-group-main\">",
-      "{% galleryGroup ${1:name} ${2:description} ${}3:link ${imgUrl} %}",
+      "{% galleryGroup ${1:name} ${2:description} ${3:link} ${imgUrl} %}",
       "</div>"
     ],
     "description": "Insert Gallery Group"
