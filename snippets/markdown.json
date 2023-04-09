@@ -7,7 +7,7 @@
   "Insert Span": {
     "prefix": [">span"],
     "body": [
-      "{% span ${2|logo,code|} ${3|red,yellow,green,cyan,blue,gray|} ${4|small,h4,h3,h2,h1,large,huge,ultra|} ${5|left,center,right|} $1%}"
+      "{% span ${1|logo,code|} ${2|red,yellow,green,cyan,blue,gray|} ${3|small,h4,h3,h2,h1,large,huge,ultra|} ${4|left,center,right|}, $0 %}"
     ],
     "description": "Insert Span."
   },
