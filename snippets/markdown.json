@@ -21,7 +21,7 @@
   "Insert Note": {
     "prefix": [">note"],
     "body": [
-      "{% note ${1|default,primary,success,info,warning,danger,color|} ${2|simple,modern,flat,disabled|}%}",
+      "{% note ${1|default,primary,success,info,warning,danger,color|} ${2|simple,modern,flat,disabled|} %}",
       "$0",
       "{% endnote %}"
     ],
@@ -52,7 +52,7 @@
   },
   "Insert Radio": {
     "prefix": ">radio",
-    "body": "{% radio ${2|red,green,yellow,cyan,blue|} ${3:checked}, ${4:text}%}",
+    "body": "{% radio ${2|red,green,yellow,cyan,blue|} ${3:checked}, ${4:text} %}",
     "description": "Insert Radio."
   },
   "Insert Timeline": {
@@ -77,7 +77,7 @@
   "Insert btns": {
     "prefix": [">btns"],
     "body": [
-      "{% btns ${1|rounded,circle|} ${2|width,fill|} ${3|center,around|} ${4|grid2,grid3,grid4,grid5|}%}",
+      "{% btns ${1|rounded,circle|} ${2|width,fill|} ${3|center,around|} ${4|grid2,grid3,grid4,grid5|} %}",
       "$0",
       "{% endbtns %}"
     ],
@@ -90,7 +90,7 @@
   },
   "Insert Butterfly Button": {
     "prefix": [">btn"],
-    "body": ["{% btn ${1:link}, ${2:title}, ${3:icon}%}, ${4|outline,block|} ${5|blue,pink,red,purple,orange,green|} ${6:larger}"],
+    "body": "{% btn ${1:link}, ${2:title}, ${3:icon}, ${4|outline,block|} ${5|blue,pink,red,purple,orange,green|} ${6:larger} %}",
     "description": "Insert Butterfly Button."
   },
   "Insert Butterfly Mermaid": {
@@ -112,7 +112,7 @@
   "Insert Folding": {
     "prefix": [">folding"],
     "body": [
-      "{% folding ${1|blue,cyan,green,yellow,red|} ${2:open}, ${3:title}%}",
+      "{% folding ${1|blue,cyan,green,yellow,red|} ${2:open}, ${3:title} %}",
       "$0",
       "{% endfolding %}"
     ],
@@ -125,7 +125,7 @@
   },
   "Insert Image": {
     "prefix": ">image",
-    "body": "{% image ${0:url}, width=${1:100px}, height=${2:100px}, alt=${3:butterfly} bg=${4:#f2f2f2}%}",
+    "body": "{% image ${0:url}, width=${1:100px}, height=${2:100px}, alt=${3:butterfly} bg=${4:#f2f2f2} %}",
     "description": "Insert Image"
   },
   "Insert Gallery Group": {
