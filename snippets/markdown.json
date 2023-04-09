@@ -112,7 +112,7 @@
   "Insert Folding": {
     "prefix": [">folding"],
     "body": [
-      "{% folding ${1|blue,cyan,green,yellow,red|} ${2:open}%}",
+      "{% folding ${1|blue,cyan,green,yellow,red|} ${2:open}, ${3:title}%}",
       "$0",
       "{% endfolding %}"
     ],
