@@ -28,6 +28,7 @@
 - `>hide`: Insert Hide
 - `>inlineimage`: Insert Inline Image
 - `>image`: Insert Image
+- `>galleryGroupMain`: Insert Gallery Group Main
 - `>galleryGroup`: Insert Gallery Group
 - `>gallery`: Insert Gallery
 - `>folding`: Insert Folding

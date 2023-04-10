@@ -95,9 +95,7 @@
   },
   "Insert Butterfly Mermaid": {
     "prefix": [">mermaid"],
-    "body": [
-      "{% mermaid %}$0{% endmermaid %}"
-    ],
+    "body": ["{% mermaid %}$0{% endmermaid %}"],
     "description": "Insert Butterfly Mermaid."
   },
   "Insert Hide": {
@@ -128,12 +126,19 @@
     "body": "{% image ${0:url}, width=${1:100px}, height=${2:100px}, alt=${3:butterfly} bg=${4:#f2f2f2} %}",
     "description": "Insert Image"
   },
+  "Insert Gallery Group Main": {
+    "prefix": ">galleryGroupMain",
+    "body": [
+      "<div class=\"gallery-group-main\">",
+      "{% galleryGroup '${1:name}' '${2:description}' ${3:link} ${imgUrl} %}",
+      "</div>"
+    ],
+    "description": "Insert Gallery Group"
+  },
   "Insert Gallery Group": {
     "prefix": ">galleryGroup",
     "body": [
-      "<div class=\"gallery-group-main\">",
-      "{% galleryGroup ${1:name} ${2:description} ${3:link} ${imgUrl} %}",
-      "</div>"
+      "{% galleryGroup '${1:name}' '${2:description}' ${3:link} ${imgUrl} %}"
     ],
     "description": "Insert Gallery Group"
   },
