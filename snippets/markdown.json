@@ -47,12 +47,12 @@
   },
   "Insert Checkbox": {
     "prefix": ">checkbox",
-    "body": "{% checkbox ${1|plus,minus,times|} ${2|red,green,yellow,cyan,blue|} ${3:checked}, ${4:text} %}",
+    "body": "{% checkbox ${1|plus,minus,times|} ${2|red,green,yellow,cyan,blue,purple|} ${3:checked}, ${4:text} %}",
     "description": "Insert Checkbox."
   },
   "Insert Radio": {
     "prefix": ">radio",
-    "body": "{% radio ${2|red,green,yellow,cyan,blue|} ${3:checked}, ${4:text} %}",
+    "body": "{% radio ${2|red,green,yellow,cyan,blue,purple|} ${3:checked}, ${4:text} %}",
     "description": "Insert Radio."
   },
   "Insert Timeline": {
@@ -110,7 +110,7 @@
   "Insert Folding": {
     "prefix": [">folding"],
     "body": [
-      "{% folding ${1|blue,cyan,green,yellow,red|} ${2:open}, ${3:title} %}",
+      "{% folding ${1|blue,cyan,green,yellow,red,purple|} ${2:open}, ${3:title} %}",
       "$0",
       "{% endfolding %}"
     ],
