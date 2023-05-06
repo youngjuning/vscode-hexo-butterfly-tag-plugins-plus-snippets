@@ -58,7 +58,7 @@
   "Insert Timeline": {
     "prefix": ">timeline",
     "body": [
-      "{% timeline ${1:title} ${2|default,blue,pink,red,purple,orange,green|} %}",
+      "{% timeline ${1:title}, ${2|default,blue,pink,red,purple,orange,green|} %}",
       "$0",
       "{% endtimeline %}"
     ],
