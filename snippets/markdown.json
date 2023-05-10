@@ -1,7 +1,7 @@
 {
   "Insert Text": {
     "prefix": [">text"],
-    "body": ["{% ${1|u,emp,wavy,del,kbd,psw|} $1 %}"],
+    "body": ["{% ${1|u,emp,wavy,del,kbd,psw|} $2 %}"],
     "description": "Insert Text."
   },
   "Insert Span": {
