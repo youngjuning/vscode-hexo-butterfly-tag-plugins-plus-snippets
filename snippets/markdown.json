@@ -32,7 +32,7 @@
     "body": [
       "{% tip ${1|success,error,warning,bolt,ban,home,sync,cogs,key,bell|} %}",
       "$0",
-      "{% endnote %}"
+      "{% endtip %}"
     ],
     "description": "Insert Tip."
   },
