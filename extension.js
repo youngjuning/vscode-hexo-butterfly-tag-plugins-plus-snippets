@@ -15,7 +15,7 @@ function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "hexo-butterfly-snippets" is now active!');
+	console.log('Congratulations, your extension "hexo-butterfly-tag-plugins-plus-snippets" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
